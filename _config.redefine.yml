@@ -372,7 +372,7 @@ articles:
 # Docs: https://redefine-docs.ohevan.com/posts/comment
 comment:
   # Whether to enable comment
-  enable: true
+  enable: false
   # Comment system
   system: waline # waline, gitalk, twikoo, giscus
   # System configuration
@@ -416,15 +416,15 @@ comment:
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
-  runtime: true # show website running time or not
+  runtime: true # 显示博客运行时间
   # Icon in footer, write fontawesome icon code here
-  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  icon: '<i class="fa-solid fa-fish fa-bounce" style="--fa-animation-duration: 2s; color: #4a9eff"></i>' # 改成小鱼图标
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2026/1/31 5:20 # 博客开始时间，可以修改成你实际开始的时间
   # Site statistics
-  statistics: true # show site statistics or not (total articles, total words)
+  statistics: true # 显示文章统计（篇数、字数）
   # Footer message
-  customize:
+  customize: # 自定义页脚文字，可以添加你想说的话
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
