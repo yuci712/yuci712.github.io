@@ -25,7 +25,7 @@ defaults:
   # Favicon
   favicon: /images/redefine-favicon.svg
   # Site logo
-  logo:
+  logo: /images/fish.jpg # 改成你的小鱼 Logo
   # Site avatar
   avatar: /images/redefine-avatar.svg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -77,9 +77,9 @@ global:
   website_counter:
     url: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js # 改用不蒜子服务
     enable: true # enable website counter or not
-    site_pv: true # site page view
-    site_uv: true # site unique visitor
-    post_pv: true # post page view
+    site_pv: true # site page view - 显示总访问量
+    site_uv: true # site unique visitor - 显示独立访客数
+    post_pv: true # post page view - 显示文章访问量
   # Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax
   single_page: true
   # Whether to enable Preloader.
@@ -132,16 +132,10 @@ home_banner:
   # Home banner subtitle
   subtitle:
     text: [
-        '随心所欲地享受每一天\(￣︶￣*\))',
-        "随时随地，浏览记录O(∩_∩)O",
-        "如果喜欢，建议给个支持( •̀ ω •́ )✧",
-        "喜欢的话，留个言好嘛(oﾟvﾟ)ノ",
-        "你有建议？反馈作者(●^◡^●)",
-        "欢迎来到我的博客(｡･∀･)ﾉﾞ",
-        "文字正在不断轮换(*￣3￣)╭",
-        "正在努力更新博客(ง •_•)ง",
-        "正在不断努力改善博客中ε=( o｀ω′)ノ",
-      ] # 通过列表的形式，按顺序轮换文字
+        "随心所欲地享受每一天",
+        "欢迎来到小鱼的池塘",
+        "正在不断努力改善博客中",
+      ] # 精简到 3 句最有特色的
     hitokoto: # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -247,9 +241,7 @@ navbar:
       submenus:
         Github: https://github.com/yuci712
         Bilibili: https://space.bilibili.com/3494367656413795?spm_id_from=333.1007.0.0
-    Github:
-      icon: fa-brands fa-github
-      path: https://github.com/yuci712/yuci712.github.io
+    # 删除重复的 Github 链接
 
   search:
     # Whether to enable
@@ -304,7 +296,7 @@ articles:
     line_height: 1.8 # Line height - 增加行高，减少视觉疲劳
     image_border_radius: 12px # image border radius - 稍微减小圆角，更现代
     image_alignment: center # image alignment. left, center
-    image_caption: true # Whether to display image caption - 启用图片说明
+    image_caption: false # 关闭图片说明，保持简洁
     link_icon: true # Whether to display link icon
     delete_mask: false # Add mask effect to <del> tags, hiding content by default and revealing on hover
     title_alignment: center # Title alignment. left, center - 标题居中更美观
@@ -319,7 +311,7 @@ articles:
   word_count:
     enable: true # Whether to enable
     count: true # Whether to display word count
-    min2read: true # Whether to display reading time
+    min2read: false # 关闭阅读时间，减少冗余
   # Author label
   author_label:
     enable: false # 关闭作者标签显示（Lv1, Lv2 等）
