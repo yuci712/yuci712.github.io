@@ -236,12 +236,13 @@ navbar:
     ShuoShuo:
       icon: fa-solid fa-comment-dots
       path: /shuoshuo
-    Links:
+    友链:
       icon: fa-regular fa-link
       submenus:
-        Github: https://github.com/yuci712
-        Bilibili: https://space.bilibili.com/3494367656413795?spm_id_from=333.1007.0.0
-    # 删除重复的 Github 链接
+        温温: https://zyzzyva0381.github.io/windy-blog/
+        龙龙: https://phenol-cat.github.io/homepage/
+        坤坤: https://xjtujtm.github.io/songyangjiang/
+        墨墨: https://github.com/ianchiou28
 
   search:
     # Whether to enable
