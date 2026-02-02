@@ -239,6 +239,7 @@ navbar:
     友链:
       icon: fa-regular fa-link
       submenus:
+        藤君: https://blog.stivine.fun/
         温温: https://zyzzyva0381.github.io/windy-blog/
         龙龙: https://phenol-cat.github.io/homepage/
         坤坤: https://xjtujtm.github.io/songyangjiang/
