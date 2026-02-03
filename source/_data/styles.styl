@@ -1,0 +1,20 @@
+// 隐藏文字样式（使用透明度，适配深色/浅色模式）
+.hidden-text
+  color: transparent
+  user-select: text
+  cursor: text
+  
+  &::selection
+    background: #b3d4fc
+    color: #000
+
+// 鼠标悬停时显示（使用透明度）
+.hidden-text-hover
+  color: rgba(0, 0, 0, 0.01)
+  transition: all 0.3s
+  user-select: text
+  cursor: text
+  
+  &:hover
+    color: inherit
+    opacity: 1
