@@ -171,7 +171,7 @@ home_banner:
     # Whether to enable
     enable: true
     # Social links style
-    style: center # default, reverse, center - 居中样式更现代
+    style: center # default, reverse, center - 改成 reverse 移到右下方
     # Social links
     links:
       github: https://github.com/yuci712
@@ -433,15 +433,12 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
   head:
-    -
-    -
   # Inject custom footer html code
   footer:
-    -
-    -
+    - <div id="scroll-down-btn" style="position:fixed;bottom:200px;left:50%;transform:translateX(-50%);width:50px;height:50px;border-radius:50%;background:rgba(255,255,255,0.2);backdrop-filter:blur(10px);border:2px solid rgba(255,255,255,0.3);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:28px;color:white;z-index:9999;transition:all 0.3s;animation:bounce 2s infinite;box-shadow:0 4px 12px rgba(0,0,0,0.15);" title="向下滚动" onclick="this.style.opacity='0';this.style.transform='translateX(-50%) scale(0)';setTimeout(()=>this.remove(),300);window.scrollTo({top:document.querySelector('.home-banner')?document.querySelector('.home-banner').offsetHeight:window.innerHeight,behavior:'smooth'})">↓</div><style>@keyframes bounce{0%,20%,50%,80%,100%{transform:translateX(-50%) translateY(0)}40%{transform:translateX(-50%) translateY(-10px)}60%{transform:translateX(-50%) translateY(-5px)}}#scroll-down-btn:hover{background:rgba(255,255,255,0.3);transform:translateX(-50%) scale(1.1)!important}</style>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # PLUGINS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
