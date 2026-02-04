@@ -238,7 +238,7 @@ navbar:
       path: /shuoshuo
     留言板:
       icon: fa-solid fa-comments
-      path: /messages/guestbook/
+      path: /messages/guestbook
     Friends:
       icon: fa-regular fa-link
       path: /links
