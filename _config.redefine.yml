@@ -276,9 +276,9 @@ home:
       Archives:
         path: /archives
         icon: fa-regular fa-archive # 图标可以为空
-      Friends: #取名随意
-        icon: fa-solid fa-link #图标
-        path: /links
+      # Friends: #取名随意
+      #   icon: fa-solid fa-link #图标
+      #   path: /links
       # Gallery:  # 暂时隐藏
       #   path: /masonry
       #   icon: fa-solid fa-image
