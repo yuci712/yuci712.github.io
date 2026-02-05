@@ -236,24 +236,15 @@ navbar:
     ShuoShuo:
       icon: fa-solid fa-comment-dots
       path: /shuoshuo
-
     摸鱼:
       icon: fa-solid fa-gamepad
       path: /game
     友链:
       icon: fa-regular fa-link
       path: /links
-      # submenus:
-      #   藤君: https://blog.stivine.fun/
-      #   温温: https://zyzzyva0381.github.io/windy-blog/
-      #   龙龙: https://phenol-cat.github.io/homepage/
-      #   坤坤: https://xjtujtm.github.io/songyangjiang/
-      #   墨墨: https://github.com/ianchiou28
-      #   瑞瑞: https://zhangruian123.github.io/
-      #   兔兔: https://blog.jsut.site/
-    留言板:
-      icon: fa-solid fa-comments
-      path: /messages/guestbook/
+    关于我:
+      icon: fa-solid fa-user
+      path: /about
 
   search:
     # Whether to enable
@@ -297,9 +288,9 @@ home:
     enable: true # Whether to enable
     limit: 3 # Max number of categories to display
   # Article tags visibility
-  # tags:
-  #   enable: false # Whether to enable
-  #   limit: 3 # Max number of tags to display
+  tags:
+    enable: false # Whether to enable
+    limit: 3 # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # ARTICLE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
