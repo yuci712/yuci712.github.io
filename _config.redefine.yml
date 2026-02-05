@@ -242,7 +242,7 @@ navbar:
     摸鱼:
       icon: fa-solid fa-gamepad
       path: /game
-    Friends:
+    友链:
       icon: fa-regular fa-link
       path: /links
       # submenus:
