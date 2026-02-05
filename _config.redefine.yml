@@ -236,9 +236,7 @@ navbar:
     ShuoShuo:
       icon: fa-solid fa-comment-dots
       path: /shuoshuo
-    留言板:
-      icon: fa-solid fa-comments
-      path: /messages/guestbook/
+    
     摸鱼:
       icon: fa-solid fa-gamepad
       path: /game
@@ -253,7 +251,10 @@ navbar:
       #   墨墨: https://github.com/ianchiou28
       #   瑞瑞: https://zhangruian123.github.io/
       #   兔兔: https://blog.jsut.site/
-
+    留言板:
+      icon: fa-solid fa-comments
+      path: /messages/guestbook/
+      
   search:
     # Whether to enable
     enable: true
